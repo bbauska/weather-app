@@ -29,7 +29,7 @@ function weatherShowFn(data) {
   $('#date').text(moment().
     format('MMMM Do YYYY, h:mm:ss a'));
   tempF = 32 + (data.main.temp * 1.8)
-    html(tempF)°F;
+    html(tempF°F);
   $('#temperature').
     html(`${data.main.temp}°C`);
   $('#description').
