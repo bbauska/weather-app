@@ -72,6 +72,12 @@ body {
     margin: 8px 0;
 }
 
+#tempF {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
 #description {
     font-size: 18px;
     margin-bottom: 10px;
