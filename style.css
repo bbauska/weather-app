@@ -62,8 +62,8 @@ body {
 }
 
 #weather-icon {
-    width: 100px;
-    height: 100px;
+    width: 100px;  /* 100px by 100px */
+    height: 20px;
 }
 
 #temperature {
