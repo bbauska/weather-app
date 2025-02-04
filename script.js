@@ -29,6 +29,7 @@ function weatherShowFn(data) {
 	$('#city-name').text(data.name);
 	$('#date').text(moment().
 		format('MMMM Do YYYY, h:mm:ss a'));
+	farenheitTemp = 32 + ((data.main.temp * 9)/5)
 	$('#temperature').
 		html(`${data.main.temp}°C`);
 	$('#description').
